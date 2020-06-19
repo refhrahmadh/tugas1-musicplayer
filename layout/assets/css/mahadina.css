@@ -1,0 +1,138 @@
+/* Import Other Mahadina Plugins [Start] */
+
+@import url("mahadina_fonts.css");
+
+/* Import Other Mahadina Plugins [End] */
+
+
+
+/* Core HTML Style [Start] */
+
+
+
+/* Core HTML Style [End] */
+
+
+
+/*Button Style [Start]*/
+
+.button_blue
+{
+	display: block;
+	border: solid 1px #1798D0;
+	color: #1798D0;
+	margin: 8px;
+	text-decoration: none;
+	padding: 4px 8px 4px 8px;
+	background: white;
+	transition: 0.2s;
+}
+
+.button_blue:hover
+{
+ 	border: solid 1px #1798D0;
+	background: #1798D0;
+	color: white;
+	transition: 0.2s;
+}
+
+.button_orange
+{
+	display: block;
+	border: solid 1px orange;
+	color: orange;
+	margin: 8px;
+	text-decoration: none;
+	padding: 4px 8px 4px 8px;
+	background: white;
+}
+
+.button_orange:hover
+{
+ 	border: solid 1px orange;
+	background: orange;
+	color: white;
+}
+
+/*Button Style [End]*/
+
+
+
+/*Simplified CSS [Start]*/
+
+.animated_fast
+{
+	transition: 0.2s;
+}
+
+.animated_medium
+{
+	transition: 0.5s;
+}
+
+.animated_slow
+{
+	transition: 1s;
+}
+
+.float_left
+{
+	float: left;
+}
+
+.float_right
+{
+	float: right;
+}
+
+.position_fixed
+{
+	position: fixed;
+}
+
+.position_absolute
+{
+	position: absolute;
+}
+
+.position_relative
+{
+	position: relative;
+}
+
+.position_all
+{
+	position: all;
+}
+
+/*Simplified CSS [End]*/
+
+
+
+input[type="text"], input[type="password"], select, textarea
+{
+	font-family: open_sans_regular;
+	font-size: 12px;
+	padding: 4px 8px 4px 8px;
+	border: solid 1px #07B31F;
+	transition: 0.2s;
+	width: 250px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, select:hover, textarea:hover
+{
+	box-shadow: 0px 0px 2px 0px #07B31F;
+	transition: 0.2s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus
+{
+	box-shadow: 0px 0px 4px 0px #07B31F;
+	transition: 0.2s;
+}
+
+select
+{
+	-moz-appearance: none;
+	appearance: none;
+}
